@@ -1,0 +1,16 @@
+.nav-relatives {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+.person-dropdown {
+    color: rgba(255, 255, 255, 0.69) !important;
+}
+
+.person-dropdown:hover {
+    background-color: white !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
+
+

@@ -1,0 +1,57 @@
+
+
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    margin: auto;
+}
+
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+
+#bg{
+    background-image: url("../img/p1.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+#bg2{
+    background-image: url("../img/p2.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+#bg3{
+    background-image: url("../img/p3.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+#myCarousel{
+    max-height: 100%;
+}
+
+/* Changes position of caption */
+.carousel-caption {
+    top: 20%;
+    bottom: auto;
+    background-color:rgba(0,0,0,0.5);
+    border-radius:10px;
+    left:35%;
+    right:35%;
+}
+

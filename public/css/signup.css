@@ -1,0 +1,69 @@
+
+
+.form-signup {
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    margin: auto;
+}
+
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+
+#bg{
+    background-image: url("../img/p1.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+
+#bg2{
+    background-image: url("../img/p2.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+#bg3{
+    background-image: url("../img/p3.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+
+/* Changes position of caption */
+.carousel-caption {
+    top: 10%;
+    bottom: auto;
+    left:35%;
+    right:35%;
+    background-color:rgba(0,0,0,0.5);
+    border-radius:10px;
+
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

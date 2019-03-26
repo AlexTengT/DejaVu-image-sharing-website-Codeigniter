@@ -1,0 +1,50 @@
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3 !important;
+    }
+}
+
+.no-gutter-card-deck.card-columns {
+    column-gap: 0;
+}
+
+
+/** pic cards **/
+.pre-pic {
+    border-radius: 0 !important;
+}
